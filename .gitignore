@@ -1,0 +1,5 @@
+/labels/
+/images/
+/data/
+.DS_Store
+model_best_resnet101.pt
