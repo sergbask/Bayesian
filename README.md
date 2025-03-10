@@ -9,6 +9,8 @@ Toy example: weed classification with CNN.
 
 Architecture: 
 
+![architecture](/ObjectCategories/Blank%20diagram.jpeg)
+
 Data: 8 classes + negative
 
 
@@ -26,7 +28,7 @@ if reconstruction error is higher then some threshold (hyper-parameter), classif
 Multiplication.
 Probability from classification head is multiplied by probability function output of Model 2. If all indexes have probability less than 0.5, classify as anomaly.
 Training: Only on the data with known classes.
-
+![probability function](ObjectCategories/sco.png)
 
 Model 1 + Classification head.
 ResNet34 (pre-trained), FC overwritten, full scale fine-tuning.
