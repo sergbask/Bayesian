@@ -125,7 +125,7 @@ Test accuracy: 80.39%
 ### Data:
 8 classes + class 'unknown', equal split
 ### Naive approach.
-Test accuracy: 82.27%
+Test accuracy: 81.97%
 ### Multiplication approach.
 #### Autoencoder
 Test accuracy: 82.48%
@@ -137,3 +137,9 @@ Test accuracy: 73.93%
 Only 73.4% of pictures with known label are identified as known (97.92% precision for unknown)
 
 ### Our utility function was based on accuracy of anomaly detection => choice of hyperparameters.
+
+## Optimisation of hyperparameter for classification accuracy:
+Test accuracy: 90.93%
+
+(91.8, 0.9554367201426025) anom
+(91.8, 0.8805704099821747) reg
