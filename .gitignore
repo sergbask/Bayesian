@@ -5,3 +5,5 @@
 model_best_resnet101.pt
 *.jpg
 /.idea
+.idea/Bayesian.iml
+.idea/misc.xml
